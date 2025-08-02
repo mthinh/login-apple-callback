@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 const port = 3000;
 
-const BUNDLE_IDENTIFIER = "social.lemonade.app.staging";
+const BUNDLE_IDENTIFIER = "social.lemonade.app.staging"; // Prod: social.lemonade.app
 
 // Middleware to parse URL-encoded bodies (Apple sends form data)
 app.use(express.urlencoded({ extended: true }));
